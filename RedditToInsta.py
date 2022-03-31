@@ -7,13 +7,13 @@ import random
 
 # downloading posts from reddit
 def GetMeme():
-    post = RedDownloader.DownloadBySubreddit('dankmemes' , 1 , output='meme' , SortBy='new')
+    post = RedDownloader.DownloadBySubreddit('memes' , 1 , output='meme' , SortBy='new')
     author = post.GetPostAuthors()[0]
     return author
 
 # sign in to instagram
 client = Client()
-client.login('username here' , 'pass here')
+client.login('dark_fire9847' , 'devaragam9847')
 
 # prepare the post for uploading
 def GenerateCaption():
